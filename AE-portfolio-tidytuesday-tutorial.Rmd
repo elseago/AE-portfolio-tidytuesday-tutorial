@@ -1,6 +1,6 @@
 ---
 title: "AE-portfolio-tidytuesday-tutorial"
-author: "Elayna Seago and Alex Connolly"
+author: "Alex Connolly and Elayna Seago"
 date: "3/11/2022"
 output: html_document
 ---
