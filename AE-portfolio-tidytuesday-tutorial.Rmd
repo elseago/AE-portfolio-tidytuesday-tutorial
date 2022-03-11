@@ -28,6 +28,15 @@ tbi_military <- readr::read_csv('https://raw.githubusercontent.com/rfordatascien
 library(tidyverse)
 ```
 
+#If you can't see the dataset after this command, go into the enviornment tab!
+
+###Now its your turn!
+#Go into Tidy Tuesday, and go to August 28th, 2018 for the 'NFL Stats' file. Go to download the CSV file, and then copy the URL at the top, and use the readr::read_csv() function to do so. X
+
+
+```{r}
+nfl_stats <-readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-08-28/nfl_2010-2017.csv')
+```
 
 #run all and knit-make sure everything is working!
 
