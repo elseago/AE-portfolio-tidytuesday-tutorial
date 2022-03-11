@@ -29,20 +29,15 @@ library(tidyverse)
 ```
 
 #If you can't see the dataset after this command, go into the enviornment tab!
-
-###Now its your turn!
-#Go into Tidy Tuesday, and go to August 28th, 2018 for the 'NFL Stats' file. Go to download the CSV file, and then copy the URL at the top, and use the readr::read_csv() function to do so. X
-
-
-```{r}
-nfl_stats <-readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2018/2018-08-28/nfl_2010-2017.csv')
-```
-
 #run all and knit-make sure everything is working!
 
-```{r lets-do-activities}
-tbi_age %>%
-  ggplot(mapping = aes(x = age_group, fill = type)) + geom_bar()
+
+###Now its your turn!
+#Go into Tidy Tuesday, and go to August 28th, 2018 for the 'NFL Stats' file. Go to download the CSV file, and then copy the URL at the top, and use the readr::read_csv() function to do so. 
+
+
+```{r read-in-nfl-data}
+------put it here----
 ```
 
 
@@ -50,5 +45,6 @@ tbi_age %>%
 If you choose to do portfolio pieces using Tidy Tuesday data sets, just do the above steps for the data set of your choosing. If they have CSV files, it should work smoothly. You can then submit that repository to Mason for credit.
 
 Thanks, hope this helped!
-Elayana and Alex
+XOXO
+Elayna and Alex
 AE
