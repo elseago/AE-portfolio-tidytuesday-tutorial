@@ -45,6 +45,7 @@ library(tidyverse)
 If you choose to do portfolio pieces using Tidy Tuesday data sets, just do the above steps for the data set of your choosing. If they have CSV files, it should work smoothly. You can then submit that repository to Mason for credit.
 
 Thanks, hope this helped!
-XOXO
 Elayna and Alex
 AE
+
+with a special thanks to Marquis for testing
