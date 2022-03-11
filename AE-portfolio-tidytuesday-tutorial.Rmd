@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #In this tutorial we will walk you through downloading and using data sets from tidy tuesday
 
-#Step 1: go to the tidy tuesday website, scroll down, and find the TBI data (in March of 2020)
+#Step 1: go to the tidy tuesday website, scroll down, and find the Traumatic Brain Injury (TBI) data (March 24th of 2020)
 
 #Step 2: Create your own repository in github and open it using new project/version control/github (or however you make your repositories)
 
@@ -36,3 +36,10 @@ tbi_age %>%
   ggplot(mapping = aes(x = age_group, fill = type)) + geom_bar()
 ```
 
+
+### Using this for portfolio pieces
+If you choose to do portfolio pieces using Tidy Tuesday data sets, just do the above steps for the data set of your choosing. If they have CSV files, it should work smoothly. You can then submit that repository to Mason for credit.
+
+Thanks, hope this helped!
+Elayana and Alex
+AE
