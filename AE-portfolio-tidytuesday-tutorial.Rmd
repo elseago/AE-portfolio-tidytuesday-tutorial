@@ -15,9 +15,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #Step 1: go to the tidy tuesday website, scroll down, and find the TBI data (in March of 2020)
 
-#Create your own repository in github and open it using new project/version control/github (or however you make your repositories)
+#Step 2: Create your own repository in github and open it using new project/version control/github (or however you make your repositories)
 
-#Read the files into tidy tuesday. You can do this by looking at the code template there, or just by using read_csv. See below for an example of using the template put on tidy tuesday
+#Step 3: Read the files into tidy tuesday. You can do this by looking at the code template there, or just by using read_csv. See below for an example of using the template put on tidy tuesday
 
 ```{r read-in-data}
 tbi_age <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_age.csv')
