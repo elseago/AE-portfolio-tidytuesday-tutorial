@@ -11,18 +11,27 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-```{r}
+#In this tutorial we will walk you through downloading and using data sets from tidy tuesday
+
+#Step 1: go to the tidy tuesday website, scroll down, and find the TBI data (in March of 2020)
+
+#Create your own repository in github and open it using new project/version control/github (or however you make your repositories)
+
+#Read the files into tidy tuesday. You can do this by looking at the code template there, or just by using read_csv. See below for an example of using the template put on tidy tuesday
+
+```{r read-in-data}
 tbi_age <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_age.csv')
 tbi_year <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_year.csv')
 tbi_military <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_military.csv')
 ```
-```{r}
+```{r load-libraries}
 library(tidyverse)
 ```
 
 
+#run all and knit-make sure everything is working!
 
-```{r}
+```{r lets-do-activities}
 tbi_age %>%
   ggplot(mapping = aes(x = age_group, fill = type)) + geom_bar()
 ```
