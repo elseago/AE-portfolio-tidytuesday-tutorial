@@ -2,7 +2,7 @@
 title: "AE-portfolio-tidytuesday-tutorial"
 author: "Alex Connolly and Elayna Seago"
 date: "3/11/2022"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -11,29 +11,38 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-#In this tutorial we will walk you through downloading and using data sets from tidy tuesday
+In this tutorial we will walk you through downloading and using data sets from tidy tuesday
 
-#Step 1: go to the tidy tuesday website, scroll down, and find the Traumatic Brain Injury (TBI) data (March 24th of 2020)
+# Step 1: 
 
-#Step 2: Create your own repository in github and open it using new project/version control/github (or however you make your repositories)
+go to the tidy tuesday website, scroll down, and find the Traumatic Brain Injury (TBI) data (March 24th of 2020)
 
-#Step 3: Read the files into tidy tuesday. You can do this by looking at the code template there, or just by using read_csv. See below for an example of using the template put on tidy tuesday
+# Step 2: 
 
-```{r read-in-data}
+Create your own repository in github and open it using new project/version control/github (or however you make your repositories)
+
+# Step 3: 
+
+Read the files into tidy tuesday. You can do this by looking at the code template there, or just by using read_csv. See below for an example of using the template put on tidy tuesday
+
+```{r read-in-data, echo=TRUE}
 tbi_age <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_age.csv')
 tbi_year <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_year.csv')
 tbi_military <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-03-24/tbi_military.csv')
 ```
+
 ```{r load-libraries}
 library(tidyverse)
 ```
 
-#If you can't see the dataset after this command, go into the enviornment tab!
-#run all and knit-make sure everything is working!
+If you can't see the dataset after this command, go into the enviornment tab!
+
+run all and knit-make sure everything is working!
 
 
-###Now its your turn!
-#Go into Tidy Tuesday, and go to August 28th, 2018 for the 'NFL Stats' file. Go to download the CSV file, and then copy the URL at the top, and use the readr::read_csv() function to do so. 
+## Now its your turn!
+
+Go into Tidy Tuesday, and go to August 28th, 2018 for the 'NFL Stats' file. Go to download the CSV file, and then copy the URL at the top, and use the readr::read_csv() function to do so. 
 
 
 ```{r read-in-nfl-data}
@@ -42,6 +51,7 @@ library(tidyverse)
 
 
 ### Using this for portfolio pieces
+
 If you choose to do portfolio pieces using Tidy Tuesday data sets, just do the above steps for the data set of your choosing. If they have CSV files, it should work smoothly. You can then submit that repository to Mason for credit.
 
 Thanks, hope this helped!
